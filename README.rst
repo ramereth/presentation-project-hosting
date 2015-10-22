@@ -28,6 +28,14 @@ hosting should look like in the coming years. I also encourage this session to
 be an open ended discussion with attendees to get a feel for what they feel is
 needed.
 
+Summary
+-------
+
+* History
+* Evolution of FOSS hosting needs
+* 
+
+
 License
 -------
 

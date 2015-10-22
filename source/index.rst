@@ -19,7 +19,7 @@ Project Hosting 3.0
 
     File Hosting
 
-    Code Repository Hosting
+    Hosted Platform Hosting
 
     Co-Location Hosting
 
@@ -35,7 +35,7 @@ Project Hosting 3.0
     * ISP's
     * Other orgs (Kernel.org, ISC)
 
-  .. revealjs:: Code repository hosting
+  .. revealjs:: Hosted Platform hosting
 
     * SourceForge (1999)
     * GNU Savannah (2001)
@@ -48,6 +48,7 @@ Project Hosting 3.0
 
     * ISC (1994)
     * OSU Open Source Lab (2003)
+    * *Anyone else?*
 
   .. revealjs:: Continuous Integration Hosting
 
@@ -55,29 +56,17 @@ Project Hosting 3.0
     * Travis CI (2012)
     * Drone.io (2014)
 
-.. revealjs:: Hosted Platform Advances Made
+.. revealjs:: Hosted Platform Advances
 
   .. rst-class:: fragment
 
-    Project Downloads
-
-    Code Repository
-
-    Bug Tracker
-
-    Website
-
-    Wiki
-
-    Mailing Lists
-
-    Web Forum
+    Issue Tracker
 
     Code Review
 
     Continuous Integration
 
-.. revealjs:: Co-Location Advances Made
+.. revealjs:: Co-Location Advances
 
   .. rst-class:: fragment
 
@@ -89,7 +78,7 @@ Project Hosting 3.0
 
     Hardware
 
-.. revealjs:: Co-Location Advances Made
+.. revealjs:: Co-Location Advances
 
   .. revealjs:: Cloud-based Hosting
 
