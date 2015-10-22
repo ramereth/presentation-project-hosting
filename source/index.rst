@@ -56,36 +56,36 @@ Project Hosting 3.0
     * Travis CI (2012)
     * Drone.io (2014)
 
-.. revealjs:: Hosted Platform Advances
+.. revealjs:: Major Advances
 
   .. rst-class:: fragment
 
-    Issue Tracker
+    Github
 
-    Code Review
+    Public cloud computing
 
-    Continuous Integration
+    Cheaper CDN storage
 
-.. revealjs:: Co-Location Advances
+    CI testing platforms
 
-  .. rst-class:: fragment
+.. revealjs:: Co-Location vs. Public Cloud
 
-    Advent of Cloud-based Hosting
+  .. csv-table::
+    :header: Co-Location, Public Cloud
 
-    New tools and technologies
+    More expensive, Cheaper initial costs
+    Less flexible, More flexible
+    Better Performance, Performance varies
+    More control, Less control
+    Hardware ownership, Pay for the service
 
-    Configuration Management
-
-    Hardware
-
-.. revealjs:: Co-Location Advances
+.. revealjs:: OSL Advances
 
   .. revealjs:: Cloud-based Hosting
 
      * Flexible elastic computing
      * Cheaper hosting options
      * No need for buying hardware
-     * CDN file hosting
 
   .. revealjs:: New tools and technologies
 
@@ -105,25 +105,161 @@ Project Hosting 3.0
 
     .. rst-class:: fragment
 
-      CFengine, Puppet, Chef, Ansible, etc
+      Chef
+
+      Integration testing on infrastructure
 
       Scale up infrastructure easier
 
       Standardize deployments of services
 
-.. revealjs:: Current needs of FOSS Hosting
+      Delegate infrastructure code with projects
+
+.. revealjs:: What do FOSS Projects Need?
+
+  .. revealjs:: Testing Resources
+
+    .. rst-class:: fragment
+
+      Flexible testing compute resources
+
+      Customizable test integration tools
+
+      Unique testing challenges
+
+    .. rv_note::
+
+      Things that don't fit well with free services like TravisCI.
+
+      TravisCI can be slow, having dedicated high performance bare metal
+      hardware is important
+
+      Some projects need to test their hardware at a larger scale to fix or find
+      bugs
+
+  .. revealjs:: Managed Service Hosting
+
+    .. rst-class:: fragment
+
+      Hosting complex platforms:
+
+      Gerrit, Gitlab, Jenkins, etc
+
+      Mailman, Jira, etc
+
+      They need the service, but don't want to manage it
+
+  .. revealjs:: Neutral CDN Mirroring
+
+    .. rst-class:: fragment
+
+      Projects get popular and need to scale fast
+
+      Current FTP mirroring infrastructure not flexible enough
+
+      API-driven, geographically diverse
+
+      Hosted by a trusted entity
+
+  .. revealjs:: Access to specialized hardware
+
+    .. rst-class:: fragment
+
+      New and upcoming hardware (ARM64, POWER8, etc)
+
+      Porting and fixing bugs
+
+.. revealjs:: How do we get there?
+
+.. revealjs:: OSL Vision 2.0
+
+  .. revealjs:: Technical Upgrade
+
+    .. rst-class:: fragment
+
+      Build and expand Cloud infrastructure (Ganeti & OpenStack)
+
+      Automated Build Services
+
+      Test Services and Support
+
+      Project Dashboards
+
+      OSL CDN (ftp mirroring 2.0)
+
+      Security Audits
+
+  .. revealjs:: OSL University Network
+
+    .. rst-class:: fragment
+
+      Collaborate with global universities
+
+      Host half rack of gear
+
+      OpenStack / Ganeti
+
+      Mentor students at those universities
+
+  .. revealjs:: Re-engineer backend services
+
+    .. rst-class:: fragment
+
+      Convert everything to Chef + CentOS
+
+      Catch up with technology trends
+
+      Fully testable infrastructure
+
+      Make it more robust to failure
+
+.. revealjs:: OSL - SuperCell
+
+  .. revealjs:: Currently
+
+    .. rst-class:: fragment
+
+      Created in 2010 in conjunction with Facebook
+
+      Utilized Ganeti to offer VM compute resources to projects
+
+      Dozen or so projects are currently using it
+
+  .. revealjs:: Plans
+
+    .. rst-class:: fragment
+
+      Rebuild with OpenStack and expand resources
+
+      Ease on-boarding for projects
+
+      Offer pre-built managed CI solutions
+
+      Access to upcoming testing suites from Academia
+
+.. revealjs:: Summary
 
   .. rst-class:: fragment
 
-    Testing, testing and more testing infrastructure
+    Testing resources are important to projects
+
+    Need a place to host unique hardware
+
+    Managed service hosting
+
+    We need your help!
 
 .. revealjs:: Discussion future of FOSS hosting
 
-  What do YOU need?
+  .. rst-class:: fragment
 
-  What is missing?
+    What do YOU need?
 
-  What's important to you?
+    What is missing?
+
+    What's important to you?
+
+    What should the OSL be doing? 
 
 .. revealjs:: Questions?
 
