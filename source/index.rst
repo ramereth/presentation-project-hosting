@@ -96,6 +96,7 @@ Project Hosting 3.0
      * Flexible elastic computing
      * Cheaper hosting options
      * No need for buying hardware
+     * CDN file hosting
 
   .. revealjs:: New tools and technologies
 
@@ -121,6 +122,38 @@ Project Hosting 3.0
 
       Standardize deployments of services
 
-.. revealjs:: What the future holds
+.. revealjs:: Current needs of FOSS Hosting
 
-.. revealjs:: Discuss future of FOSS hosting
+  .. rst-class:: fragment
+
+    Testing, testing and more testing infrastructure
+
+.. revealjs:: Discussion future of FOSS hosting
+
+  What do YOU need?
+
+  What is missing?
+
+  What's important to you?
+
+.. revealjs:: Questions?
+
+  Lance Albertson
+
+  lance@osuosl.org
+
+  `@ramereth`_
+
+  http://osuosl.org
+
+  http://lancealbertson.com
+
+  *Attribution-ShareAlike CC BY-SA ©2015*
+
+  .. raw:: HTML
+
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    <img alt="Creative Commons License" style="border-width:0"
+    src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+.. _@ramereth: http://twitter.com/ramereth
