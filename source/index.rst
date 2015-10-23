@@ -10,7 +10,7 @@ Project Hosting 3.0
 
   * Brief history of FOSS hosting
   * Advances made
-  * What the future holds
+  * OSL Vision 2.0
   * Discuss future of FOSS hosting
 
 .. revealjs:: Types of FOSS Hosting
@@ -42,7 +42,7 @@ Project Hosting 3.0
     * LaunchPad (2004)
     * Google Code (2006)
     * Github (2008)
-    * GitLab (2001)
+    * GitLab (2011)
 
   .. revealjs:: Co-Location Hosting
 
@@ -50,11 +50,24 @@ Project Hosting 3.0
     * OSU Open Source Lab (2003)
     * *Anyone else?*
 
+    .. rv_note::
+
+      Other universities and co-location facilities would also offer services,
+      but usually at a smaller scale.
+
+      Some companies favor projects they use internally to support the community
+      back.
+
   .. revealjs:: Continuous Integration Hosting
 
     * CircleCI (2011)
     * Travis CI (2012)
     * Drone.io (2014)
+
+    .. rv_note::
+
+      Fairly new space for FOSS hosting services. Still seeing a lot of growth
+      here.
 
 .. revealjs:: Major Advances
 
@@ -64,9 +77,18 @@ Project Hosting 3.0
 
     Public cloud computing
 
-    Cheaper CDN storage
+    More CDN choices (some offer free services to FOSS)
 
     CI testing platforms
+
+    .. rv_note::
+
+      Github changed everything and really pushed the fold. Public computing
+      also enabled a lot of other projects more flexibility in their hosting
+      needs.
+
+      Companies like Fastly support FOSS projects by offering them either free
+      or discounted FOSS access to their service.
 
 .. revealjs:: Co-Location vs. Public Cloud
 
@@ -79,27 +101,39 @@ Project Hosting 3.0
     More control, Less control
     Hardware ownership, Pay for the service
 
+  .. rv_note::
+
+    Purely my opinion which may be wrong. Co-Location offers a lot of advantages
+    and disadvantages. For some projects it works well, but many are getting
+    tired of dealing with hardware issues and moving to the public or private
+    cloud.
+
 .. revealjs:: OSL Advances
-
-  .. revealjs:: Cloud-based Hosting
-
-     * Flexible elastic computing
-     * Cheaper hosting options
-     * No need for buying hardware
 
   .. revealjs:: New tools and technologies
 
     .. rst-class:: fragment
 
-      Virtual computing
+      Virtual computing / Private Cloud
 
       * OpenStack
       * Ganeti
+      * Containers*
 
       Storage Technologies
 
       * GlusterFS
-      * Ceph
+      * Ceph*
+      * Swift (S3)*
+
+      .. rv_note::
+
+        Started using Ganeti in 2009, and now working on offering a private
+        Openstack cloud for FOSS projects. Started using OpenStack internally in
+        the last year and a half. Looking at containers next.
+
+        Been using GlusterFS for 3+ years, looking at Ceph and Swift next for
+        storage technologies.
 
   .. revealjs:: Configuration Management
 
@@ -149,6 +183,11 @@ Project Hosting 3.0
 
       They need the service, but don't want to manage it
 
+      .. rv_note::
+
+        We get a lot of requests to host random services that can be complicated
+        to host. Most are alternatives to things like Github.
+
   .. revealjs:: Neutral CDN Mirroring
 
     .. rst-class:: fragment
@@ -165,9 +204,11 @@ Project Hosting 3.0
 
     .. rst-class:: fragment
 
-      New and upcoming hardware (ARM64, POWER8, etc)
+      New and upcoming hardware (ARM64, POWER8, Open Compute, etc)
 
       Porting and fixing bugs
+
+      IoT
 
 .. revealjs:: How do we get there?
 
@@ -237,6 +278,20 @@ Project Hosting 3.0
 
       Access to upcoming testing suites from Academia
 
+  .. revealjs:: Education and Diversity
+
+    .. rst-class:: fragment
+
+      Open Source track in EECS at OSU
+
+      Online classes targeted at DevOps topics
+
+      Diversify the OSL workforce
+
+      .. rv_note::
+
+        OSU Post-Bac program is a huge success. Piggy back on that.
+
 .. revealjs:: Summary
 
   .. rst-class:: fragment
@@ -246,6 +301,8 @@ Project Hosting 3.0
     Need a place to host unique hardware
 
     Managed service hosting
+
+    Increase our academic mission around DevOps and FOSS
 
     We need your help!
 
@@ -259,7 +316,7 @@ Project Hosting 3.0
 
     What's important to you?
 
-    What should the OSL be doing? 
+    What should the OSL be doing?
 
 .. revealjs:: Questions?
 
@@ -272,6 +329,8 @@ Project Hosting 3.0
   http://osuosl.org
 
   http://lancealbertson.com
+
+  https://github.com/ramereth/presentation-project-hosting
 
   *Attribution-ShareAlike CC BY-SA ©2015*
 
