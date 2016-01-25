@@ -48,7 +48,7 @@ Project Hosting 3.0
 
     * ISC (1994)
     * OSU Open Source Lab (2003)
-    * *Anyone else?*
+    * Other various universities (IU, etc)
 
     .. rv_note::
 
@@ -224,11 +224,11 @@ Project Hosting 3.0
 
       Test Services and Support
 
-      Project Dashboards
+      Project Dashboards (Data metrics)
 
       OSL CDN (ftp mirroring 2.0)
 
-      Security Audits
+      Improved Infrastructure Security
 
   .. revealjs:: OSL University Network
 
@@ -238,21 +238,37 @@ Project Hosting 3.0
 
       Host half rack of gear
 
-      OpenStack / Ganeti
+      Cloud services (compute, storage, etc)
 
       Mentor students at those universities
+
+      Kickstart the OSL concept to other universities
 
   .. revealjs:: Re-engineer backend services
 
     .. rst-class:: fragment
 
-      Convert everything to Chef + CentOS
+      Standardize Server Management (Chef+CentOS)
 
       Catch up with technology trends
 
       Fully testable infrastructure
 
       Make it more robust to failure
+
+      Easier to deploy new services for projects
+
+  .. revealjs:: OSL PaaS
+
+    .. rst-class:: fragment
+
+      Majority of our hosting is simple web applications
+
+      Scalable, secure and flexible for projects needs
+
+      API-Driven platform for projects
+
+      Speed up and expand our capability
 
 .. revealjs:: OSL - SuperCell
 
@@ -302,6 +318,8 @@ Project Hosting 3.0
 
     Managed service hosting
 
+    API-Driven Platforms for common tools
+
     Increase our academic mission around DevOps and FOSS
 
     We need your help!
@@ -326,13 +344,13 @@ Project Hosting 3.0
 
   `@ramereth`_
 
-  http://osuosl.org
+  osuosl.org
 
-  http://lancealbertson.com
+  lancealbertson.com
 
-  https://github.com/ramereth/presentation-project-hosting
+  github.com/ramereth/presentation-project-hosting
 
-  *Attribution-ShareAlike CC BY-SA ©2015*
+  *Attribution-ShareAlike CC BY-SA ©2015-2016*
 
   .. raw:: HTML
 
