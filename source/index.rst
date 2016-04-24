@@ -122,9 +122,9 @@ Project Hosting 3.0
 
       Storage Technologies
 
-      * GlusterFS
-      * Ceph*
-      * Swift (S3)*
+      * Network attached storage (GlusterFS)
+      * Block storage (Ceph*)
+      * Object storage (Openstack Swift*)
 
       .. rv_note::
 
@@ -349,6 +349,8 @@ Project Hosting 3.0
   lancealbertson.com
 
   github.com/ramereth/presentation-project-hosting
+
+  We're hiring! http://osl.io/sysadmin2016
 
   *Attribution-ShareAlike CC BY-SA ©2015-2016*
 
